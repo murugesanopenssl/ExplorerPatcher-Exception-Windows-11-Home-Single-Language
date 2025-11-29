@@ -14,11 +14,16 @@
 <SCRIPT type="text/javascript">
         window.onload = function() {
             // Check if the current URL is the one we want to redirect from
-            if (window.location.href.indexOf("ExplorerPatcher-Exception-Windows-11-Home-Single-Language/spending.html") !== -1) {
+            if( -1 !== window.location.href.indexOf("spending.html") )
+	    {
                 window.location.href = "https://murugesanopenssl.github.io/spending.html";
-            } else if (window.location.href.indexOf("remove-blockages-kitchen-pvc-outflow-pipe.html") !== -1) {
+            }
+	    else if( -1 !== window.location.href.indexOf("remove-blockages-kitchen-pvc-outflow-pipe.html") )
+	    {
                 document.write("<A>Unclog Kitchen Drain</A>");
-            } else {
+            }
+	    else
+	    {
                 document.write("<A href='remove-blockages-kitchen-pvc-outflow-pipe.html'>Unclog Kitchen Drain</A>");
             }
         };
@@ -36,7 +41,10 @@
 					</TD>
 					<TD style="text-align:middle;vertical-align:top;background-color:white;">
 						<SCRIPT type='text/javascript'>
-							window.location.href="https://murugesanopenssl.github.io/spending.html";
+						if( -1 !== window.location.href.indexOf("spending.html") )
+						{
+							window.location.href = "https://murugesanopenssl.github.io/spending.html";
+						}
 							if( -1 != window.location.href.indexOf("remove-blockages-kitchen-pvc-outflow-pipe.html") )
 							{
 								document.write("<A>Unclog Kitchen Drain</A>");
