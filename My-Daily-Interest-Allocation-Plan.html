@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<HTML lang="en">
+	<HEAD>
+		<META charset="UTF-8">
+		<META http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+		<META http-equiv="Expires" content="0">
+		<META http-equiv="Pragma" content="no-cache">
+		<META name="viewport" content="width=device-width, initial-scale=1.0">
+		<TITLE>
+			MY DAILY SAVINGS ALLOCATION PLAN
+		</TITLE>
+	</HEAD>
+	<BODY TOPMARGIN='0' LEFTMARGIN='0' MARGINHEIGHT='0' MARGINWIDTH='0'>
+		<SCRIPT type='text/javascript'>
+			function formatDate( d )
+			{
+				var days=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+				var months=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+				var dd=d.getDate()<10?"0"+d.getDate():d.getDate();
+				return days[d.getDay()]+" "+dd+"-"+months[d.getMonth()]+"-"+d.getFullYear()+" IST";
+			}
+			function setDate( id,day,month,year )
+			{
+				var d=new Date( year, month, day );
+				document.getElementById( id ).innerHTML=formatDate( d );
+			}
+			function setLeapFeb( id, year )
+			{
+				var leap=( ( 0 == year%4 ) && ( 0 != year%100 ) || ( 0 == year%400 ) );
+				var day=leap?29:28;
+				var d=new Date( year, 1, day );
+				document.getElementById( id ).innerHTML=formatDate( d );
+			}
+			function nextMonthChit()
+			{
+				var d=new Date();
+				d.setMonth( d.getMonth()+1 );
+				d.setDate( 3 );
+				document.getElementById( "nextMonthChit" ).innerHTML=formatDate( d );
+			}
+			document.addEventListener( "DOMContentLoaded", function()
+			{
+				var yyyy=new Date().getFullYear();
+				document.getElementById( "todayDate" ).innerHTML=formatDate( new Date() );
+				setDate( "goldDate", 28, 10, yyyy );
+				setDate( "printerDate", 28, 10, yyyy );
+				setLeapFeb( "tenthFees", yyyy );
+				setDate( "eleventhFeesMain", 31, 4, yyyy );
+				setDate( "eleventhFeesFD", 31, 4, yyyy );
+				setDate( "openMIS", 4, 2, yyyy );
+				nextMonthChit();
+			};
+		</SCRIPT>
+		<TABLE border='1' style='width:100%;'>
+			<TR>
+				<TD valign='top' align='left'>
+					<FONT color='red'>
+					<B>
+						<U>
+							DAILY/WEEKLY/MONTHLY/YEARLY I AM DEPOSITING MY MONEY TO MY RECURRING_DEPOSIT/PUBLIC_PROVIDENT_FUND/FIXED_DEPOSIT_ETDR<BR>
+							THIS IS AN INDIRECT INCOME TO INDIA.
+						</B>
+					</U>
+					</FONT>
+					<BR>
+					<H2>
+						MY DAILY SAVINGS ALLOCATION PLAN
+					</H2>
+					<P><SPAN id='todayDate'></SPAN></P>
+					<P>
+						Purpose:To manage daily MIS interest income with discipline and clarity for family security and future goals.
+					</P>
+					<H3>
+						01) Daily MIS Interest Distribution( Divide each days total MIS interest divided by 07 )
+					</H3>
+					<TABLE border='1' style='width:100%;'>
+						<TR>
+							<TH valign='top' align='right' style='width:10px;'>
+								Index
+							</TH>
+							<TH valign='top' align='right' style='width:600px;'>
+								Purpose
+							</TH>
+							<TH valign='top' align='right'>
+								Target Date
+							</TH>
+							<TH valign='top' align='right'>
+								Purpose
+							</TH>
+							<TH valign='top' align='right'>
+								Status
+							</TH>
+						</TR>
+						<TR>
+							<TD valign='top' align='right'>
+								01
+							</TD>
+							<TD valign='top' align='right'>
+								Daily Spending Control = transfer to my bank daily using NEFT from post office
+							</TD>
+							<TD valign='top' align='right'>
+								Daily
+							</TD>
+							<TD valign='top' align='right'>
+								INCREASE SBI(INDIAN GOVT) INCOME<BR>
+								WITHDRAW ONLY 3 TIMES AT SBI ATM PER MONTH.<BR>
+								WITHDRAW ONLY 2 TIMES AT OTHER BANK ATM PER MONTH.
+							</TD>
+							<TD valign='top' align='right'>
+								To take care of:<BR>
+								01) MEDICINES<BR>
+								02) MY FOOD/SNACKS<BR>
+								03) MILK/GINGER<BR>
+								04) PETROL IF TRAVEL REQUIRED<BR>
+								05) TRAVEL IF REQUIRED<BR>
+								06) HANDLE AMB 3 MONTH'S INTEREST AT SBI<BR>
+								07) TWO WHEELER REPAIR.<BR>
+								08) ELECTRIC/ELECTRONIC REPAIR.<BR>
+								09) SHIRT/BUTTON/PANT/DRESS REPAIR.
+							</TD>
+						</TR>
+						<TR>
+							<TD valign='top' align='right'>
+								02
+							</TD>
+							<TD valign='top' align='right'>
+								Gold Coin Chit Fund( 01 Gram )
+							</TD>
+							<TD valign='top' align='right' id='goldDate'>
+								1000.00 ರೂ/ரூ/₹ INR each month for 11 months.
+							</TD>
+							<TD valign='top' align='right'>
+								AVR SWARNA MAHAL<BR>
+								OWNER: A.V. Ramachandra Chettiar<BR>
+								COUNTRY: INDIA
+							</TD>
+							<TD valign='top' align='right'>
+								<FONT color='red'>
+									<B><U>
+										 SAVED AVR AMOUNT AT POST: 0.00 ರೂ/ரூ/₹ INR
+									</B></U>
+								</FONT>
+								<BR>
+								AVR MONTHLY PAID AMOUNT: 1000.00 ರೂ/ரூ/₹ INR<BR>
+								Future saving
+							</TD>
+						</TR>
+						<TR>
+							<TD valign='top' align='right'>
+								03
+							</TD>
+							<TD valign='top' align='right'>
+								Parents Emergency Support
+							</TD>
+							<TD valign='top' align='right'>
+								Approximately 595.00 to 489.00 ರೂ/ரூ/₹ INR during each month for 5 years
+							</TD>
+							<TD valign='top' align='right'>
+								SBI ETDR<BR>
+								AND FEW AMOUNT AT MUM'S BANK<BR>
+								I USED TO RECEIVE NEXT DAY MIS INTEREST ONE DAY BEFORE THE ACTUAL DATE<BR>
+								EXAMPLE: RECEIVED ON Tue 25-Feb-2026 09:58 PM<BR>
+								SINCE ( Feb ) 2024 WAS A LEAP YEAR
+							</TD>
+							<TD valign='top' align='right'>
+								<DIV id="amount"></DIV>
+								<DIV id="updated"></DIV>
+								<SCRIPT type="text/javascript">
+								( function()
+						{
+							var PARENT_AMT =  3809.00;
+							document.getElementById( "amount" ).innerHTML =
+							"<FONT color='red'><B><U>SAVED AMOUNT AT ETDR/POST: "+PARENT_AMT.toFixed( 2 ) + " ரூ/ரூ/₹ INR</B></U></FONT>";
+							var LASTUPDATED_PARENT_INSURANCE_TIME = "Wed 18-Mar-2026 10:01 PM";
+							document.getElementById( "updated" ).innerHTML = "on " + LASTUPDATED_PARENT_INSURANCE_TIME;
+						})();
+								</SCRIPT>
+							</TD>
+						</TR>
+						<TR>
+							<TD valign='top' align='right'>
+								04
+							</TD>
+							<TD valign='top' align='right'>
+								Epson Printer Purchase
+							</TD>
+							<TD valign='top' align='right' id='printerDate'>
+								Approximately 564.00 ರೂ/ரூ/₹ INR pea month for 2 years
+							</TD>
+							<TD valign='top' align='right'>
+								Saving at post office
+							</TD>
+							<TD valign='top' align='right'>
+								<DIV id="printerSaved"></DIV>
+								<DIV id="YetToSaveForPrinter"></DIV>
+								<SCRIPT type="text/javascript">
+								( function()
+						 {
+							var SAVED_EPSON_PRINTER = ;
+							var YET_TO_SAVE = 12000.00 - SAVED_EPSON_PRINTER;
+							document.getElementById( "printerSaved" ).innerHTML =
+							"<FONT color='red'><B><U>SAVED AMOUNT AT ETDR/POST: "+SAVED_EPSON_PRINTER.toFixed( 2 )+"</B></U></FONT>";
+							document.getElementById( "YetToSaveForPrinter" ).innerHTML =
+							"YET TO SAVE: "+YET_TO_SAVE.toFixed( 2 )+" ರೂ/ரூ/₹ INR";
+						})();
+								</SCRIPT>
+							</TD>
+						</TR>
+						<TR>
+							<TD valign='top' align='right'>
+								05
+							</TD>
+							<TD valign='top' align='right'>
+								Post Office Savings total target 900000.00 ರೂ/ரூ/₹ INR
+							</TD>
+							<TD valign='top' align='left'>
+								<FONT color='red'>
+								a) On Mon 26-Jan-2026 IST<BR>
+								Pre-closure of 42 MIS to pay IGCSE exam fees of 112000.00 ರೂ/ரூ/₹ INR.<BR>
+								Each MIS principal was 3000.00 ರೂ/ரೂ/₹ INR.<BR>
+								Loss due to pre-closure: 2520.00 ರೂ/ರೂ/₹ INR.<BR>
+								Held MIS for 4 years at Post Office.<BR>
+								b) On Sun 15-Mar-2026 IST using internet banking<BR>
+								Pre closed single MIS to re-open in sequence number of days.
+								</FONT>
+							</TD>
+							<TD valign='top' align='right'>
+								AT INDIAN POST OFFICE
+							</TD>
+							<TD valign='top' align='right'>
+								<DIV id="MIS_AMTSaved"></DIV>
+								<DIV id="YetToSaveForMIS_AMT"></DIV>
+								<SCRIPT type="text/javascript">
+								var NEW_MIS_5k = 0.00;
+								( function()
+						 {
+							var YET_TO_SAVE = 50000.00 - NEW_MIS_5k;
+							document.getElementById( "MIS_AMTSaved" ).innerHTML =
+							"<FONT color='red'><B><U>SAVED AMOUNT AT ETDR/POST:<BR>"+NEW_MIS_5k.toFixed( 2 )+"</B></U></FONT>";
+							document.getElementById( "YetToSaveForMIS_AMT" ).innerHTML =
+							"YET TO SAVE: "+YET_TO_SAVE.toFixed( 2 )+" ರೂ/ரூ/₹ INR";
+						})();
+								</SCRIPT>
+							</TD>
+						</TR>
+						<TR>
+							<TD valign='top' align='right'>
+								06
+							</TD>
+							<TD valign='top' align='right'>
+								My Son 11th Standard Fees
+							</TD>
+							<TD valign='top' align='right' id='eleventhFeesMain'>
+								Approximately 564.00 inr during each month for 6 months
+								<BR>
+								<FONT color='red'>
+								I HAVE TAKEN 17252.00 FOR MY 2 WHEELER REPAIR ON:<BR>
+								Wed 25-Feb-2026 03:39 PM DUE TO PRECLOSURE OF SBI ETDR.
+								</FONT>
+							</TD>
+							<TD valign='top' align='right'>
+								SBI FIXED DEPOSIT/ETDR
+							</TD>
+							<TD valign='top' align='right'>
+								<DIV id="pucsaved"></DIV>
+								<DIV id="YetToSavePuc"></DIV>
+				<SCRIPT type='text/javascript'>
+					var PUC01_AMT = 65036.00;
+					var YET_TO_SAVE = 150000.00 - PUC01_AMT;
+					document.getElementById( "pucsaved" ).innerHTML = "<FONT color='red'><B><U>SAVED AMOUNT AT ETDR/POST:<BR>"+PUC01_AMT.toFixed( 2 )+" ರೂ/ரூ/₹ INR</B></U></FONT>";
+					document.getElementById( "YetToSavePuc" ).innerHTML = "YET TO SAVE: "+YET_TO_SAVE.toFixed( 2 )+" ರೂ/ரூ/₹ INR";
+				</SCRIPT>
+							</TD>
+						</TR>
+						<TR>
+							<TD valign='top' align='right'>
+								07
+							</TD>
+							<TD valign='top' align='right'>
+								RECURRING DEPOSIT
+							</TD>
+							<TD valign='top' align='right'>
+								1000.00 ರೂ/ரூ/₹ INR each month for 5 years
+							</TD>
+							<TD valign='top' align='right'>
+								RD AT INDIAN POST OFFICE
+							</TD>
+							<TD valign='top' align='right'>
+								<FONT color='red'>
+									<B>
+									<U>
+										SAVED RD AMOUNT AT POST OFFICE: 27100.00 ರೂ/ரூ/₹ INR<BR>
+									</B>
+									</U>
+								</FONT>
+								till Thu 28-Feb-2030 IST
+							</TD>
+						</TR>
+						<TR>
+							<TD valign='top' align='right'>
+								08
+							</TD>
+							<TD valign='top' align='right'>
+								PUBLIC PROVIDEND FUND
+							</TD>
+							<TD valign='top' align='right'>
+								500.00 ರೂ/ரூ/₹ INR each month for 15 years
+							</TD>
+							<TD valign='top' align='right'>
+								PPF AT INDIAN POST OFFICE
+							</TD>
+							<TD valign='top' align='right'>
+								<FONT color='red'>
+									<B>
+									<U>
+										SAVED AMOUNT: 12797.00 ರೂ/ரூ/₹ INR<BR>
+									</B>
+									</U>
+								</FONT>
+								till Fri 28-Oct-2039 IST
+							</TD>
+						</TR>
+					</TABLE>
+					<H3>
+						02) SBI Fixed Deposit/ETDR 46 Days or required days Goal Tracking
+					</H3>
+					<TABLE border='1' style='width:100%;'>
+						<TR>
+							<TH valign='top' align='right' style='width:10px;'>
+								Index
+							</TH>
+							<TH valign='top' align='right' style='width:600px;'>
+								Purpose
+							</TH>
+							<TH valign='top' align='right'>
+								Due Date
+							</TH>
+						</TR>
+						<TR>
+							<TD valign='top' align='right'>
+								01
+							</TD>
+							<TD valign='top' align='right'>
+								Tenth standard school fees
+							</TD>
+							<TD valign='top' align='right' id='tenthFees'>
+								Sat 07-Mar-2026 IST
+							</TD>
+						</TR>
+						<TR>
+							<TD valign='top' align='right'>
+								02
+							</TD>
+							<TD valign='top' align='right'>
+								Eleventh standard school fees<BR>
+								multiple Fixed Deposits/ETDRs having different end dates.
+							</TD>
+							<TD valign='top' align='right'>
+								Either:<BR>
+								a) Merge to one Fixed Deposit/ETDR later<BR>
+								b) Close each 1/2/3/... days before end date.<BR>
+								Till then reopen ETDR+interest after each close date.<BR>
+								Planned Date:<BR>
+								<SPAN id='eleventhFeesFD'></SPAN>
+							</TD>
+						</TR>
+						<TR>
+							<TD valign='top' align='right'>
+								03
+							</TD>
+							<TD valign='top' align='right'>
+								Gold Coin Chit Fund Payment
+							</TD>
+							<TD valign='top' align='right' id='nextMonthChit'>
+								Saved for five months.
+							</TD>
+						</TR>
+						<TR>
+							<TD valign='top' align='right'>
+								04
+							</TD>
+							<TD valign='top' align='right'>
+								Parent Insurance Activation
+							</TD>
+							<TD valign='top' align='right'>
+								When Savings Reach 1053.00 ರೂ/ரூ/₹ INR, open NEW SBI ETDR FOR 46 days.
+							</TD>
+						</TR>
+						<TR>
+							<TD valign='top' align='right'>
+								05
+							</TD>
+							<TD valign='top' align='right'>
+								Future plan to buy Epson Printer
+							</TD>
+							<TD valign='top' align='right' id='printerDate'>
+								Use HP machine only for scanning<BR>
+								Use epson machine only for printing.
+							</TD>
+						</TR>
+						<TR>
+							<TD valign='top' align='right'>
+								06
+							</TD>
+							<TD valign='top' align='right'>
+								Open New MIS at Post Office
+							</TD>
+							<TD valign='top' align='right' id='openMIS'>
+								<DIV id="Missaved"></DIV>
+								<DIV id="YetToSaveMis"></DIV>
+				<SCRIPT type='text/javascript'>
+					var YET_TO_SAVE = 50000.00 - NEW_MIS_5k;
+					document.getElementById( "Missaved" ).innerHTML = "<FONT color='red'><B><U>SAVED AMOUNT AT POST:<BR>"+NEW_MIS_5k.toFixed( 2 )+" ರೂ/ரூ/₹ INR</B></U></FONT>";
+					document.getElementById( "YetToSaveMis" ).innerHTML = "YET TO SAVE: "+YET_TO_SAVE.toFixed( 2 )+" ರೂ/ரூ/₹ INR";
+				</SCRIPT>
+							</TD>
+						</TR>
+					</TABLE>
+					<TABLE border='1' style='width:100%;'>
+						<TR>
+							<TD valign='top' align='middle' colspan='2'>
+								<B>
+									Financial Discipline Statement
+								</B>
+							</TD>
+						</TR>
+						<TR>
+							<TD valign='top' align='left'>
+								<P>
+									இந்த திட்டம் கட்டுப்பட்ட செலவு,<BR>
+									திட்டமிட்ட சேமிப்பு மற்றும் குறைந்த மற்றும் நடுத்தர வருமானக் குடும்பங்களுக்கு பொறுப்பான நிதி வளர்ச்சியை உறுதிப்படுத்த உருவாக்கப்பட்டுள்ளது.<BR>
+									ஒவ்வொரு ரூபாய் வட்டி வருமானத்தையும் செலவுக்கு முன் ஒரு நோக்கத்திற்கே ஒதுக்கப்படுகிறது.<BR>
+									அத்துடன் அவசரநிதிகளுக்காக எளிதில் அணுகக்கூடிய சேமிப்புகளின் முக்கியத்துவத்தையும்,<BR>
+									அவசரத் தேவைகள் ஏற்பட்டால் உடனடி நடவடிக்கைகளை எடுக்க முடியும் என்பதையும் உணர்த்துகிறது,<BR>
+									அதிக வட்டி கடன்கள் அல்லது அபாயகரமான மாற்று வழிகளுக்கு செல்லாமல்.
+								</P>
+							</TD>
+							<TD valign='top' align='left'>
+								<P>
+									This plan is created to ensure controlled spending,<BR>
+									systematic saving,<BR>
+									and responsible financial growth for low- and middle-income families after Covid-19.<BR> 
+									Every rupee of interest income is assigned a purpose before spending.<BR>
+									It also highlights the importance of accessible savings for emergencies,<BR>
+									allowing immediate action when urgent funds are needed without resorting to high-interest loans or risky alternatives.
+								</P>
+							</TD>
+						</TR>
+					</TABLE>
+				</TD>
+			</TR>
+		</TABLE>
+		<SCRIPT type='text/javascript'>
+			var yyyy=new Date().getFullYear();
+			document.getElementById( "todayDate" ).innerHTML=formatDate( new Date() );
+			setDate( "goldDate", 28, 10, yyyy );
+			setDate( "printerDate", 28, 10, yyyy );
+			setLeapFeb( "tenthFees", yyyy );
+			setDate( "eleventhFeesMain", 31, 4, yyyy );
+			setDate( "eleventhFeesFD", 31, 4, yyyy );
+			setDate( "openMIS",4, 2, yyyy );
+			nextMonthChit();
+		</SCRIPT>
+	</BODY>
+</HTML>
